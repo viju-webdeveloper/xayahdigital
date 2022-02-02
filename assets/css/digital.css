@@ -1,0 +1,1036 @@
+body{
+  max-width: 1400px;
+    margin: auto;
+    background-color: #1a1a1a;
+    
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, #0e1313, #d3e018) 
+  }
+   
+  ::-webkit-scrollbar-thumb{
+    color: rgb(247, 231, 17);
+    border-radius: 4px;
+    background-color: rgb(196, 171, 60);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.822); 
+  }
+
+main{
+    display: block;
+    margin: 0;
+    color: white;
+    padding: 0;
+    margin-top: 50px;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #1a1a1a;
+}
+
+.front{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 95vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.front header{
+    font-size: 65px;
+    font-weight: 600;
+    padding-top: 10px;
+    width: 70%;
+    position: relative;
+    z-index: 1;
+    margin-left: 40px;
+}
+
+.front img{
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    z-index: 0;
+}
+
+.front h2{
+    display: block;
+    position: relative;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 40px;
+    z-index: 2;
+}
+
+.front button{
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 170px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 90px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: yellow;
+    overflow: hidden;
+    border: 1px yellow;
+    cursor: pointer;
+    box-shadow: 2px 3px rgba(255, 255, 255, 0.678);
+}
+
+.front button a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 110%;
+    height: 100%;
+    left: 0;
+    border-radius: 20px;
+    padding-top: 18px;
+    margin-left: -6px;
+    margin-top: -1px;
+    font-size: 18px;
+    transition: 0.6s ease;
+    
+}
+
+.front button a:hover{
+    background-color: rgba(21, 253, 0, 0.945);
+    cursor: pointer;
+    color: white;
+}
+
+/* how we help client section */
+
+.wehelp{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    margin-top: 6px;
+    overflow: hidden;
+
+}
+
+.wehelp img{
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.wehelpside{
+    display: block;
+    float: right;
+    width: 45%;
+    padding-right: 50px;
+    height: 100%;
+    padding-left: 30px;
+    border-left: 7px solid #695FD0;
+}
+
+.wehelpside header{
+    font-size: 35px;
+}
+
+.wehelpside p{
+    font-size: 20px;
+}
+
+/* Digital marketing services section */
+
+.digitalservices{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    overflow: hidden;
+    color: black;
+
+}
+
+
+.digitalservices h1{
+
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 57px;
+    color: white;
+}
+
+
+.digitalservices .digitalservices_items{
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+
+}
+
+.digitalservices .digitalservices_items div{
+  position: relative;
+  width: 80%;
+  height: 300px;
+  margin-top: 20px;
+  background-color: #3A3A3A;
+  border-radius: 40px;
+}
+
+
+.digitalservices_items button{
+  position: absolute;
+  bottom: 25%;
+  padding: 0;
+  border-radius: 35px;
+  overflow: hidden;
+  border: none;
+  left: 40%;
+}
+
+.digitalservices_items button a{
+  display: block;
+  position: relative;
+  z-index: 0;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  padding: 20px 30px;
+  background-color: orange;
+}
+
+.digitalservices_items button a::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #890596;
+  /* background-color: #939597; */
+  z-index: -1;
+  transition: 0.4s ease;
+  transform: scaleY(0);
+
+}
+
+.digitalservices_items button a:hover::after{
+  transform: scaleY(1);
+}
+
+
+
+.digitalservices .digitalservices_items #digitalservice-one{  
+    margin-left: 20%;  
+}
+
+.digitalservices .digitalservices_items #digitalservice-one img{
+    position: absolute;
+    left: -20%;
+    bottom: 0;
+    width: 50%;
+    height: 300px;
+}
+
+.digitalservices .digitalservices_items #digitalservice-one h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.digitalservices .digitalservices_items #digitalservice-two img{
+    position: absolute;
+    right: -5%;
+    top: 0;
+    width: 40%;
+    height: 300px;
+}
+
+.digitalservices .digitalservices_items #digitalservice-two h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.digitalservices .digitalservices_items #digitalservice-three{
+    margin-left: 20%;
+
+}
+
+.digitalservices .digitalservices_items #digitalservice-three img{
+    position: absolute;
+    left: -10%;
+    top: 0;
+    width: 40%;
+    height: 300px;
+}
+
+.digitalservices .digitalservices_items #digitalservice-three h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.digitalservices .digitalservices_items #digitalservice_four img{
+    position: absolute;
+    right: -5%;
+    bottom: 0;
+    width: 40%;
+    height: 320px;
+}
+
+.digitalservices .digitalservices_items #digitalservice_four h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.digitalservices .digitalservices_items #digitalservice_five{
+    margin-left: 20%;
+}
+
+.digitalservices .digitalservices_items #digitalservice_five img{
+    position: absolute;
+    left: -10%;
+    top: 2%;
+    width: 45%;
+    height: 300px;
+}
+
+.digitalservices .digitalservices_items #digitalservice_five h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.digitalservices .digitalservices_items #digitalservice_six img{
+    position: absolute;
+    right: -5%;
+    top: 2%;
+    width: 40%;
+    height: 280px;
+}
+
+.digitalservices .digitalservices_items #digitalservice_six h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.digitalservices .digitalservices_items #digitalservice_seven{
+    margin-left: 20%;
+}
+
+.digitalservices .digitalservices_items #digitalservice_seven img{
+    position: absolute;
+    left: -5%;
+    top: 2%;
+    width: 40%;
+    height: 290px;
+}
+
+.digitalservices .digitalservices_items #digitalservice_seven h2{
+    display: block;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+.digitalservices .digitalservices_items #digitalservice_eight img{
+    position: absolute;
+    right: -5%;
+    top: 0;
+    width: 40%;
+    height: 310px;
+}
+
+.digitalservices .digitalservices_items #digitalservice_eight h2{
+    display: block;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+/* digital custom banner section */
+
+.digital-banner{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 100px;
+  }
+  
+  .digital-banner img{
+    width: 100%;
+    height: 100%;
+  }
+
+/* <!-- how marketing helps buiseness --> */
+
+.howbuiseness{
+  position: relative;
+  width: 100%;
+  
+}
+
+.howbuiseness header{
+  font-size: 45px;
+  margin: 0px 50px;
+} 
+.howbuisenessitem{
+  display: flex;
+  width: 400%;
+  transition: 0.8s ease;
+  perspective: 1000;
+}
+
+.howbuisenessitem .owl{
+  flex-basis: 100%;
+  display: flex;
+}
+
+.howright,
+.howleft{
+  position: absolute;
+  color: white;
+  padding: 10px;
+  font-size: 35px;
+  top: 50%;
+  transform: translateY(-25%);
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.howright:hover,
+.howleft:hover{
+  background-color: blue;
+}
+
+.howleft{
+  left: 0%;
+}
+
+.howright{
+  right: 0%;
+}
+
+
+.howbuisenessitem .content{
+  display: block;
+  margin: 5%;
+  min-height: 220px;
+  width: 30%;
+  background-color: #0A0A0A;
+  box-shadow: 10px 10px #8D5FFF;
+  border-radius: 50px;
+  position: relative;
+  justify-content: center;
+}
+
+.howbuisenessitem .content-img{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  padding: 5%;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.howbuisenessitem .content-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.howbuisenessitem .content h3{
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 10%;
+  color: white;
+  text-align:center;
+  
+}
+
+
+
+
+
+  /* #Who We Are section */
+
+  .whowe{
+    /* background-color: #f5df4da2; */
+      width: 100%;
+      height: 450px;
+      margin: 0;
+      margin-top: 130px;
+      margin-bottom: 10px;
+      position: relative;
+      background-color: transparent;
+      
+
+  }
+
+  .whowe section{
+    height: 80%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: #292929;
+  }
+
+  .whowe p{
+      display: block;
+      font-size: 16px;
+      text-align: left;
+      position: absolute;
+      top: -25%;
+      left: 8%;
+      width: 72%;
+      font-weight: 700;
+  }
+
+  .whowe p span{
+    font-size: 51px;
+    margin-left: -10px;
+    display: block;
+  }
+
+  .whowe img{
+    width: 40%;
+    height: 146%;
+    position: absolute;
+    top: -42%;
+    right: -9%;
+  }
+
+
+
+  /* banner section */
+
+  /* let us help you banneer section */
+
+.banner{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+  }
+
+  .banner img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .banner h1{
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    top: 1%;
+    left: 10%;
+
+
+  }
+
+  .banner h4{
+    position: absolute;
+    text-align: center;
+    width: 30%;
+    top: 38%;
+    left: 10%;
+  }
+
+  .banner h4::first-letter{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(224, 64, 152);
+    text-shadow: 2px 2px black;
+}
+
+  .banner h1::first-letter{
+      text-transform: capitalize;
+      font-size: 60px;
+      font-weight: bolder;
+      color: turquoise;
+      text-shadow: 2px 2px black;
+  }
+  
+  .banner button{
+    border: none;
+    position: absolute;
+    bottom: 5%;
+    font-size: 18px;
+    padding: 0;
+    left: 20%;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.2s ease;
+  }
+  
+  
+  .banner button a {
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    background-color: yellow;
+    transition: 0.5s;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    z-index: 0;
+  }
+  
+  .banner button:hover a{
+    text-shadow: 2px 2px 1px black;
+    color: white;
+  }
+
+
+  .banner button a::after{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: linear-gradient(to left, green, yellow);
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      transform: scaleY(0);
+      transition: 0.5s ease;
+  }
+
+  .banner button a:hover::after{
+      transform: scaleY(1);
+  }
+  
+
+
+  /* experties-section */
+
+.expeties{
+    display: block;
+    width: 100%;
+    max-width: 1005px;
+    overflow: hidden;
+    /* justify-content: center; */
+    height: 550px;
+    margin: 50px auto;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.842);
+  }
+  
+  .expeties header{
+    font-size: 51px;
+    color: white;
+    font-weight: 800;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 0px;
+  
+  }
+  
+  .expeties p{
+    color: #706b6a;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: serif;
+    padding-right: 10%;
+  }
+  
+  .expeties #headm{
+    padding-left: 5%;
+  }
+  
+  .expeties .bar{
+    list-style: none;
+    background-color: #3775d2;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .expeties .bar li{
+    display: inline-flex;
+    width: 13%;
+    height: 100%;
+  }
+  
+  .expeties .bar li:first-child{
+    border-left: 1px solid black;
+  }
+  
+  .bar li a{
+    
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-right: 1px solid black;
+    position: relative;
+    transition: 0.5s ease;
+  }
+  
+  .bar li a.sactive, .bar li a:hover{
+    background-color: rgb(206, 219, 15);
+    color: rgb(0, 0, 0);
+  }
+  
+  .webexperties{
+    display: block;
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+  
+  .webexperties p{
+    position: absolute;
+    width: 100%;
+    color: white;
+    
+    
+  } 
+
+
+  .webexperties p span{
+    width: 75%;
+    padding-left: 10px;
+    display: block;
+    text-align: center;
+  }
+
+  .webexperties p img{
+    position: absolute;
+    width: 25%;
+    right: 7%;
+    top: -22%;
+
+  }
+  
+  
+  .webexperties #backend{
+    opacity: 0;
+  }
+  
+  .webexperties #application, #frontend, #cms, #Social, #Basic{
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+  
+  
+
+  .bar li a .fa-caret-down {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s ease;
+  }
+
+  .bar li a.sactive>.fa-caret-down{
+    top: 60%;
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+
+  /* why brand choose us deital marketing partner */
+
+
+
+
+  .whychooseusasdigital{
+    position: relative;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+  }
+  
+  .whychooseusasdigital header{
+    font-size: 45px;
+    margin: 20px 50px;
+  } 
+  
+  .whychooseusasdigital .whybuiseness-scroll{
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    height: 400px;
+    margin: 0px auto;
+    background-color: black;
+    
+  }
+  
+  .whybuisenessitem{
+    display: flex;
+    width: 400%;
+    transition: 1s ease;
+    perspective: 1000;
+  }
+  
+  .whybuisenessitem .owl-2{
+    flex-basis: 100%;
+    display: flex;
+  }
+  
+  .whyright,
+  .whyleft{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    font-size: 35px;
+    top: 50%;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .whyright:hover,
+  .whyleft:hover{
+    background-color: rgb(212, 134, 44);
+  }
+  
+  .whyleft{
+    left: 0;
+  }
+  
+  .whyright{
+    right: 1%;
+  }
+  
+  
+  .whybuisenessitem .content{
+    display: block;
+    margin: 2% 7%;
+    min-height: 350px;
+    width: 35%;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    position: relative;
+    justify-content: center;
+  }
+  
+  .whybuisenessitem .content h1{
+    display: block;
+    width: 100%;
+    height: 30%;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    top: 3%;
+    text-align: center;
+  }
+  
+  .whybuisenessitem .content h1::first-letter{
+    font-size: 51px;
+    font-weight: bold;
+    color: blueviolet;
+  }
+  
+  .whybuisenessitem .content h3{
+    position: absolute;
+    display: block;
+    width: 90%;
+    font-size: 16px;
+    padding-left: 10px;
+    top: 35%;
+    text-align:center;
+    
+  }
+
+  .whybuisenessitem .content h3::first-letter{
+    font-size: 28px;
+    font-weight: bold;
+    color: coral;
+  }
+
+
+
+  
+/* frequently asked question */
+
+.faq{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
+
+.faq header{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 13px;
+  transition: 0.4s;
+  height: auto;
+  left: 0;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 10px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.mactive, .accordion:hover {
+  background-color: rgba(20, 18, 18, 0.774);
+  color: white;
+}
+
+.mactive:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.mactive:after, .accordion{
+  background-color: white;
+  color: black;
+}
+
+.mactive:hover{
+  color: rgba(253, 246, 246, 0.849);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  color: black;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .faq{
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width :900px){
+  .faq{
+    width: 90%;
+  }
+}
+
+
+
+  /* contact us section */
+
+.contactus{
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.contactus img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.contactus p{
+  display: block;
+  font-size: 51px;
+  line-height: 52px;
+  width: 50%;
+  z-index: 1;
+  color: black;
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+}
+
+.contactus button{
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  border: none;
+  padding: 0;
+  border-radius: 25px;
+}
+
+.contactus button a{
+  background-color: #FA91D4;
+  position: relative;
+  padding: 5px 20px;
+  z-index: 0;
+  display: block;
+  color: black;
+  font-size: 28px;
+  border-radius: 25px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.4s ease;
+}
+
+.contactus button a::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #EF2F88;
+  top: 0;
+  left: 0;
+  transform: scaleY(0);
+  transition: 0.4s ease;
+}
+
+
+.contactus button a:hover::after{
+  transform: scaleY(1);
+}

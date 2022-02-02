@@ -27,11 +27,12 @@ body{
 
 main{
     display: block;
-    margin: 0;
+    margin: auto;
     color: white;
     padding: 0;
     margin-top: 50px;
     width: 100%;
+    max-width:1250px;
     overflow-x: hidden;
     background-color: #1a1a1a;
 }
@@ -81,15 +82,14 @@ main{
     z-index: 3;
     width: 170px;
     height: 60px;
-    margin-left: 80px;
-    margin-top: 90px;
+    margin-left: 40px;
+    margin-top: 50px;
     text-align: center;
     border-radius: 30px;
     background-color: yellow;
     overflow: hidden;
     border: 1px yellow;
     cursor: pointer;
-    box-shadow: 2px 3px rgba(255, 255, 255, 0.678);
 }
 
 .front button a{
@@ -372,7 +372,7 @@ main{
 /* digital custom banner section */
 
 .digital-banner{
-    width: 100%;
+    width: 100vw;
     height: 350px;
     margin-bottom: 100px;
   }
@@ -479,7 +479,7 @@ main{
 
   .whowe{
     /* background-color: #f5df4da2; */
-      width: 100%;
+      width: 100vw;
       height: 450px;
       margin: 0;
       margin-top: 130px;
@@ -531,7 +531,7 @@ main{
   /* let us help you banneer section */
 
 .banner{
-    width: 100%;
+    width: 100vw;
     height: 350px;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -771,7 +771,7 @@ main{
 
   .whychooseusasdigital{
     position: relative;
-    width: 100%;
+    width: 100vw;
     margin-top: 80px;
     margin-bottom: 100px;
     
@@ -880,6 +880,44 @@ main{
   }
 
 
+@media only screen and (min-width:1250px){
+  .whybuisenessitem .owl-2 {
+    justify-content: space-evenly
+  }
+  
+  
+  .whybuisenessitem .content{
+    margin: 2% 0;
+    min-height: 350px;
+    width: 30%;
+  }
+  
+  .whyleft {
+    left: 3%;
+    transform: translateY(-30%);
+    font-size: 90px;
+}
+  .whyright {
+    right: 3%;
+    transform: translateY(-30%);
+    font-size: 90px;
+}
+  
+  .howbuisenessitem .content h3{
+    font-size: 21px;
+    margin: 0;
+  }
+  
+  .front header{
+    font-size: 67px;
+  }
+  
+  .front h2 {
+    font-size: 51px;
+  }
+  
+}
+
 
   
 /* frequently asked question */
@@ -969,7 +1007,7 @@ main{
 
 .contactus{
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 600px;
 }
 

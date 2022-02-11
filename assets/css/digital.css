@@ -32,8 +32,9 @@ main{
     padding: 0;
     margin-top: 50px;
     width: 100%;
-  min-width: 1020px;
+    min-width: 1020px;
     max-width:1250px;
+    overflow-X: hidden;
     background-color: #1a1a1a;
 }
 
@@ -387,6 +388,7 @@ main{
 .howbuiseness{
   position: relative;
   width: 100%;
+  overflow: hidden;
   
 }
 
@@ -403,6 +405,7 @@ main{
 
 .howbuisenessitem .owl{
   flex-basis: 100%;
+  overflow: hidden;
   display: flex;
 }
 
